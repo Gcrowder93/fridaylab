@@ -20,7 +20,14 @@
     </header>
     <main>
         <section class="main-section">
-            
+            <button id="generate" onclick="document.getElementById('random-num').innerHTML = getRandomNum(0,1000)">Random Number</button>  
+                <p id="random-num"></p>
+                <script>
+                    function getRandomNum(min, max) {
+                      return Math.floor(Math.random() * (max - min)) + min;
+                    }
+                    </script>
+
         </section>
     </main>
     <footer>

@@ -1,6 +1,7 @@
 // import functions and grab DOM elements
-
 // initialize global state
+
+
 
 // set event listeners 
 // get user input
